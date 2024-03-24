@@ -1,0 +1,13 @@
+1. create main.py file
+
+2. write your code
+
+3. create requirements 
+##  pip freeze > requirements.txt  
+
+4. install requiments
+## pip install -r requirements.txt   
+
+5. deploy images
+##  pyinstaller --onedir --add-data "images/*.png:images/" main.py -w
+
